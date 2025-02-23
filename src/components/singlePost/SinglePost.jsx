@@ -2,28 +2,53 @@ import "./singlePost.css"
 
 export default function SinglePost() {
     return (
-        <div className="post">
-            <img className="postImage"
-                src="https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01-768x427.png"
-                alt="react"
-            />
-            <div className="postInfo">
-                <div className="postCats">
-                    <span className="postCat">MONGO DB</span>
-                    <span className="postCat">EXPRESS</span>
-                    <span className="postCat">REACT</span>
-                    <span className="postCat">NODE JS</span>
+        <div className="singlePost">
+            <div className="singlePostWrapper">
+                <img
+                    src="https://s3-wp-product.s3.amazonaws.com/wp-content/uploads/20240612182027/1_ID3uH4873p4YIqYImQGdvQ-768x512.jpg"
+                    alt=""
+                    className="singlePostImage"
+                />
+                <h1 className="singlePostTitle">
+                    Lorem ipsum dolor sit
+                    <div className="singlePostEdit">
+                        <i className="singlePostIcon fa-solid fa-user-pen"></i>
+                        <i className="singlePostIcon fa-solid fa-trash"></i>
+                    </div>
+                </h1>
+                <div className="singlePostInfo">
+                    <span className="singlePostDate">1 minute ago</span>
                 </div>
-                <span className="postTitle">
-                    De Arte Codicis et Analysi Datae
-                </span>
-                <hr />
-                <span className="postDate">1 minute ago</span>
+                <p className="singlePostText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
+                    qui aut sunt voluptates porro, 
+                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                </p>
             </div>
-            <p className="postDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id omnis optio impedit saepe ratione reprehenderit inventore, 
-                nam dolores eos distinctio tempore veritatis ut aliquid adipisci recusandae nisi neque? Sunt, expedita.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id omnis optio impedit saepe ratione reprehenderit inventore, 
-                nam dolores eos distinctio tempore veritatis ut aliquid adipisci recusandae nisi neque? Sunt, expedita.</p>
         </div>
     )
 }

@@ -1,14 +1,14 @@
-import SinglePost from "../singlePost/SinglePost"
+import Post from "../post/Post"
 import "./posts.css"
 
 export default function Posts() {
   return (
     <div className="posts">
-        <SinglePost />
-        <SinglePost />
-        <SinglePost />
-        <SinglePost />
-        <SinglePost />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
     </div>
   )
 }

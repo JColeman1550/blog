@@ -1,0 +1,57 @@
+.signup {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)),
+    url("https://mrwallpaper.com/images/hd/workspace-blogging-backdrop-df8r8jlb6kyrceaf.jpg");
+    
+    background-size: cover;
+}
+
+.signupTitle {
+    font-size: 50px;
+}
+
+.signupForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.signupForm > label {
+    margin: 10px 0;
+}
+
+
+.signupInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.signupButton {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: maroon;
+    color: tan;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.signupLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: tan;
+    color: maroon;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
