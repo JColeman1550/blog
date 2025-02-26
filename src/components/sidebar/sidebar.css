@@ -2,8 +2,8 @@
     flex: 3;
     margin: 20px;
     padding-bottom: 30px;
-    background-color: rgb(255, 246, 246);
-    border-radius: 10px;
+    background-color: white;
+    border-left: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +30,7 @@ align-items: center;
 
 .sidebarItem > img {
     margin-top: 15px;
+    border-radius: 50px;
 }
 
 .sidebarItem > p {
@@ -54,7 +55,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: maroon
+    color: black
 }
 
 .sidebarIcon {

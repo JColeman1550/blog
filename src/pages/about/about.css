@@ -1,0 +1,43 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    margin-bottom: 15px;
+  }
+  
+  /* Custom styles for each paragraph */
+  .intro {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .college {
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .career-change {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .hobbies {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .closing {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
