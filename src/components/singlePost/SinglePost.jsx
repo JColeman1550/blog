@@ -10,7 +10,7 @@ export default function SinglePost() {
                     className="singlePostImage"
                 />
                 <h1 className="singlePostTitle">
-                    Lorem ipsum dolor sit
+                    
                     <div className="singlePostEdit">
                         <i className="singlePostIcon fa-solid fa-user-pen"></i>
                         <i className="singlePostIcon fa-solid fa-trash"></i>
@@ -20,33 +20,7 @@ export default function SinglePost() {
                     <span className="singlePostDate">1 minute ago</span>
                 </div>
                 <p className="singlePostText">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis unde quas ipsum iusto nobis dolorum facilis 
-                    qui aut sunt voluptates porro, 
-                    illum itaque dignissimos fugiat! Totam fugiat accusamus natus consequatur.
+                   
                 </p>
             </div>
         </div>
