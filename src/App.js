@@ -6,7 +6,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
-import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { BrowserRouter as Router,Routes,Route, useNavigate} from "react-router-dom";
 
 
 
@@ -16,8 +16,8 @@ function App() {
     <Router>
       <TopBar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/signup" element={user ? <Home /> : <Signup />} /> {/* if user is signed up goes to home if not goes to signup page*/}
         <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/write" element={user ? <Write /> : <Signup />} />
