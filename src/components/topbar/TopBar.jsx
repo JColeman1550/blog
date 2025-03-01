@@ -35,15 +35,15 @@ export default function TopBar() {
                         <Link to="/about" className="link">ABOUT</Link>
                     </li>
                     <a href="https://jtcportfolio.vercel.app/"><li className="topListItem">
-                        <Link to="/contact" className="link">PORTFOLIO</Link>
+                        PORTFOLIO
                     </li></a>
 
                     <a href="https://julianthedev.netlify.app/">
-                    <li className="topListItem">
-                        MORE WORK
-                    </li>
+                        <li className="topListItem">
+                            MORE WORK
+                        </li>
                     </a>
-                    
+
                     {/*
                     <li>
                         <Link to="/write" className="link">WRITE</Link>
@@ -66,7 +66,7 @@ export default function TopBar() {
                         />
                     ) : (
 
-                        
+
                         <ul className="topList">
                             {/*
                             <li className="topListItem">
@@ -77,10 +77,10 @@ export default function TopBar() {
                             </li>
                             */}
                         </ul>
-                        
+
                     )
                 }
-            {/*
+                {/*
                 <i className=" topSearchIcon fa-brands fa-searchengin"></i>
                 */}
             </div>
