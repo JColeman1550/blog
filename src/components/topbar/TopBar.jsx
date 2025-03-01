@@ -34,9 +34,9 @@ export default function TopBar() {
                     <li className="topListItem">
                         <Link to="/about" className="link">ABOUT</Link>
                     </li>
-                    <li className="topListItem">
+                    <a href="https://jtcportfolio.vercel.app/"><li className="topListItem">
                         <Link to="/contact" className="link">PORTFOLIO</Link>
-                    </li>
+                    </li></a>
 
                     <a href="https://julianthedev.netlify.app/">
                     <li className="topListItem">
