@@ -6,7 +6,7 @@ import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
-import { BrowserRouter as Router,Routes,Route, useNavigate} from "react-router-dom";
+import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 
 
